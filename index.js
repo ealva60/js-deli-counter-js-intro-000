@@ -9,6 +9,6 @@ function nowServing(line) {
     console.log(`Currently serving ${line[0]}.`)
     line.shift()
   } else {
-    console.log("There is nobody waiting to be served!")
+    return "There is nobody waiting to be served!"
   }
 }
