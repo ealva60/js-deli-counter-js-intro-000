@@ -25,7 +25,7 @@ function currentLine(line) {
         txt = txt + ", "
       }
       txt = txt + x + ". " + line[i]
-	
+
     }
     return txt
   }
