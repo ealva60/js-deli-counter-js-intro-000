@@ -16,7 +16,7 @@ function nowServing(line) {
 }
 
 function currentLine(line) {
-  If (line.length < 1) {
+  if (line.length < 1) {
     return "The line is currently empty."
   }
 }
